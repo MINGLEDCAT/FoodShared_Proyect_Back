@@ -1,0 +1,29 @@
+
+
+# Ignorar el entorno virtual
+env_backend/
+
+# Ignorar archivos de configuración de entorno y dependencias
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Ignorar archivos de Django
+*.log
+*.pot
+*.py[co]
+*~
+
+# Ignorar archivos de migración de Django si prefieres gestionarlos solo en producción
+**/migrations/
+
+# Ignorar archivos de configuraciones locales
+.env
+*.env
+
+# Node, IDE y otros archivos no relacionados con el proyecto
+node_modules/
+.vscode/
+.idea/
+.DS_Store
